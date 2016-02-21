@@ -9,6 +9,7 @@
 #include "BaseScene.hpp"
 #include "Scene_S.h"
 #include "Scene_M.h"
+#include "Scene_G.h"
 
 class ofApp : public ofxiOSApp {
 	
@@ -30,6 +31,12 @@ class ofApp : public ofxiOSApp {
         void deviceOrientationChanged(int newOrientation);
 	vector <BaseScene *> scenes;
 	int currentScene;
+	ofImage account_navi;
+	ofImage graph_img;
+	ofImage setting_img;
+	
+	float pos_x;
+	float pos_y;
 };
 
 
