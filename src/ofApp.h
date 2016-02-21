@@ -10,6 +10,7 @@
 #include "Scene_S.h"
 #include "Scene_M.h"
 #include "Scene_G.h"
+#include "Scene_setting.h"
 
 class ofApp : public ofxiOSApp {
 	

@@ -11,6 +11,8 @@ void ofApp::setup(){
 	scenes.push_back(nm);
 	BaseScene * ng = new Scene_G();
 	scenes.push_back(ng);
+	BaseScene * nsetting = new Scene_setting();
+	scenes.push_back(nsetting);
 	account_navi.loadImage("button_cal.png");
 	graph_img.loadImage("button_graph.png");
 	setting_img.loadImage("button_setting.png");
@@ -57,6 +59,9 @@ void ofApp::touchUp(ofTouchEventArgs & touch){
 	}
 	if(pos_x > ofGetWidth()/3 && pos_x < ofGetWidth()*2/3 && pos_y > ofGetHeight()*9/10 && pos_y < ofGetHeight()){
 		currentScene = 2;
+	}
+	if(pos_x > ofGetWidth()*2/3 && pos_x < ofGetWidth() && pos_y > ofGetHeight()*9/10 && pos_y < ofGetHeight()){
+		currentScene = 3;
 	}
 }
 

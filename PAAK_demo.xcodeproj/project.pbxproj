@@ -14,6 +14,7 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		4B5AED671C79458500A103A6 /* Scene_G.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AED661C79458500A103A6 /* Scene_G.mm */; };
+		4B5AED6B1C794E9200A103A6 /* Scene_setting.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AED6A1C794E9200A103A6 /* Scene_setting.mm */; };
 		4BD55A721C78B85E0074E108 /* Scene_S.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BD55A711C78B85E0074E108 /* Scene_S.mm */; };
 		4BD55A761C78BF760074E108 /* Scene_M.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BD55A751C78BF760074E108 /* Scene_M.mm */; };
 		5326AEA810A23A0500278DE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326AEA710A23A0500278DE6 /* CoreLocation.framework */; };
@@ -81,6 +82,8 @@
 		35BB9BB90DBABFD3B39F8DB6 /* ofxUDPManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxUDPManager.cpp; path = ../../../addons/ofxNetwork/src/ofxUDPManager.cpp; sourceTree = SOURCE_ROOT; };
 		4B5AED661C79458500A103A6 /* Scene_G.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Scene_G.mm; sourceTree = "<group>"; };
 		4B5AED681C7945A300A103A6 /* Scene_G.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene_G.h; sourceTree = "<group>"; };
+		4B5AED691C794E7C00A103A6 /* Scene_setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene_setting.h; sourceTree = "<group>"; };
+		4B5AED6A1C794E9200A103A6 /* Scene_setting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Scene_setting.mm; sourceTree = "<group>"; };
 		4BD55A6F1C78B6A10074E108 /* BaseScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseScene.hpp; sourceTree = "<group>"; };
 		4BD55A711C78B85E0074E108 /* Scene_S.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Scene_S.mm; sourceTree = "<group>"; };
 		4BD55A731C78B9230074E108 /* Scene_S.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene_S.h; sourceTree = "<group>"; };
@@ -316,6 +319,8 @@
 				4BD55A6F1C78B6A10074E108 /* BaseScene.hpp */,
 				4BD55A741C78BF650074E108 /* Scene_M.h */,
 				4BD55A751C78BF760074E108 /* Scene_M.mm */,
+				4B5AED691C794E7C00A103A6 /* Scene_setting.h */,
+				4B5AED6A1C794E9200A103A6 /* Scene_setting.mm */,
 				4B5AED661C79458500A103A6 /* Scene_G.mm */,
 				4B5AED681C7945A300A103A6 /* Scene_G.h */,
 				4BD55A711C78B85E0074E108 /* Scene_S.mm */,
@@ -439,6 +444,7 @@
 				960D20B191346612D5C05A6A /* ofxTCPClient.cpp in Sources */,
 				125506CD3E5F428AAFE5CC65 /* ofxTCPManager.cpp in Sources */,
 				4BD55A721C78B85E0074E108 /* Scene_S.mm in Sources */,
+				4B5AED6B1C794E9200A103A6 /* Scene_setting.mm in Sources */,
 				4B5AED671C79458500A103A6 /* Scene_G.mm in Sources */,
 				66CA411C5A9664E27326BF36 /* ofxTCPServer.cpp in Sources */,
 				4BD55A761C78BF760074E108 /* Scene_M.mm in Sources */,
