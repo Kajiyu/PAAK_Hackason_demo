@@ -15,6 +15,7 @@
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		4B5AED671C79458500A103A6 /* Scene_G.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AED661C79458500A103A6 /* Scene_G.mm */; };
 		4B5AED6B1C794E9200A103A6 /* Scene_setting.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AED6A1C794E9200A103A6 /* Scene_setting.mm */; };
+		4B8E69D01C7993A4009709B8 /* dummy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E69CF1C7993A4009709B8 /* dummy.mm */; };
 		4BD55A721C78B85E0074E108 /* Scene_S.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BD55A711C78B85E0074E108 /* Scene_S.mm */; };
 		4BD55A761C78BF760074E108 /* Scene_M.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BD55A751C78BF760074E108 /* Scene_M.mm */; };
 		5326AEA810A23A0500278DE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326AEA710A23A0500278DE6 /* CoreLocation.framework */; };
@@ -23,7 +24,6 @@
 		66CA411C5A9664E27326BF36 /* ofxTCPServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C085E327DAB912CFA2A443D /* ofxTCPServer.cpp */; };
 		678E130817951530005B6D19 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 678E130717951530005B6D19 /* Icon@2x.png */; };
 		678E130A17951536005B6D19 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 678E130917951536005B6D19 /* Icon.png */; };
-		678E130C1795153C005B6D19 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 678E130B1795153C005B6D19 /* Default.png */; };
 		678E130E17951540005B6D19 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 678E130D17951540005B6D19 /* Default@2x.png */; };
 		678E131017951549005B6D19 /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 678E130F17951549005B6D19 /* Default-568h@2x~iphone.png */; };
 		67DFA53619F92A69003B3434 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DFA53419F92A5E003B3434 /* Accelerate.framework */; };
@@ -84,6 +84,8 @@
 		4B5AED681C7945A300A103A6 /* Scene_G.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene_G.h; sourceTree = "<group>"; };
 		4B5AED691C794E7C00A103A6 /* Scene_setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene_setting.h; sourceTree = "<group>"; };
 		4B5AED6A1C794E9200A103A6 /* Scene_setting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Scene_setting.mm; sourceTree = "<group>"; };
+		4B8E69CE1C799396009709B8 /* dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummy.h; sourceTree = "<group>"; };
+		4B8E69CF1C7993A4009709B8 /* dummy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = dummy.mm; sourceTree = "<group>"; };
 		4BD55A6F1C78B6A10074E108 /* BaseScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseScene.hpp; sourceTree = "<group>"; };
 		4BD55A711C78B85E0074E108 /* Scene_S.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Scene_S.mm; sourceTree = "<group>"; };
 		4BD55A731C78B9230074E108 /* Scene_S.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene_S.h; sourceTree = "<group>"; };
@@ -94,7 +96,6 @@
 		53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		678E130717951530005B6D19 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "bin/data/Icon@2x.png"; sourceTree = "<group>"; };
 		678E130917951536005B6D19 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = bin/data/Icon.png; sourceTree = "<group>"; };
-		678E130B1795153C005B6D19 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = bin/data/Default.png; sourceTree = "<group>"; };
 		678E130D17951540005B6D19 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "bin/data/Default@2x.png"; sourceTree = "<group>"; };
 		678E130F17951549005B6D19 /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x~iphone.png"; path = "bin/data/Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		67DFA53419F92A5E003B3434 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -193,7 +194,6 @@
 			children = (
 				678E130917951536005B6D19 /* Icon.png */,
 				678E130717951530005B6D19 /* Icon@2x.png */,
-				678E130B1795153C005B6D19 /* Default.png */,
 				678E130D17951540005B6D19 /* Default@2x.png */,
 				678E130F17951549005B6D19 /* Default-568h@2x~iphone.png */,
 				E4D8936A11527B74007E1F53 /* src */,
@@ -323,6 +323,8 @@
 				4B5AED6A1C794E9200A103A6 /* Scene_setting.mm */,
 				4B5AED661C79458500A103A6 /* Scene_G.mm */,
 				4B5AED681C7945A300A103A6 /* Scene_G.h */,
+				4B8E69CE1C799396009709B8 /* dummy.h */,
+				4B8E69CF1C7993A4009709B8 /* dummy.mm */,
 				4BD55A711C78B85E0074E108 /* Scene_S.mm */,
 				4BD55A731C78B9230074E108 /* Scene_S.h */,
 				E4D8936C11527B74007E1F53 /* ofApp.h */,
@@ -402,7 +404,6 @@
 			files = (
 				678E130817951530005B6D19 /* Icon@2x.png in Resources */,
 				678E130A17951536005B6D19 /* Icon.png in Resources */,
-				678E130C1795153C005B6D19 /* Default.png in Resources */,
 				678E130E17951540005B6D19 /* Default@2x.png in Resources */,
 				678E131017951549005B6D19 /* Default-568h@2x~iphone.png in Resources */,
 			);
@@ -437,6 +438,7 @@
 				5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */,
 				B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */,
 				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
+				4B8E69D01C7993A4009709B8 /* dummy.mm in Sources */,
 				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
 				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
 				B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */,

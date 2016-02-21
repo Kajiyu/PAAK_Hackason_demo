@@ -8,14 +8,18 @@
 
 #include "Scene_setting.h"
 
-void Scene_setting::setup(){}
+void Scene_setting::setup(){
+	ofBackground(255, 0, 0);
+}
 
 void Scene_setting::update(){}
 
-void Scene_setting::draw(){}
+void Scene_setting::draw(){
+}
 
 void Scene_setting::touchDown(ofTouchEventArgs &touch){
 }
 
 void Scene_setting::touchUp(ofTouchEventArgs &touch){
+	
 }

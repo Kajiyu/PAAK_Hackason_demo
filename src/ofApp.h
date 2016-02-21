@@ -11,6 +11,7 @@
 #include "Scene_M.h"
 #include "Scene_G.h"
 #include "Scene_setting.h"
+#include "dummy.h"
 
 class ofApp : public ofxiOSApp {
 	
@@ -35,6 +36,7 @@ class ofApp : public ofxiOSApp {
 	ofImage account_navi;
 	ofImage graph_img;
 	ofImage setting_img;
+	ofImage title;
 	
 	float pos_x;
 	float pos_y;

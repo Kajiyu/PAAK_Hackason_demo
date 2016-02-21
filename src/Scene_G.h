@@ -23,6 +23,9 @@ public:
 	void draw();
 	void touchDown(ofTouchEventArgs & touch);
 	void touchUp(ofTouchEventArgs & touch);
+	void touchMoved(ofTouchEventArgs & touch);
+	
+	ofImage graph;
 };
 
 #endif /* Scene_G_h */
